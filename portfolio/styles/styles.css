@@ -39,6 +39,7 @@ body {
     font-size: 18px;
     text-align: center;
     color: black;
+    background-color: #6d6875;
    
 }
 
@@ -113,6 +114,75 @@ nav a:link, nav a:visited {
     color: black;
 }
 nav a:hover {
-    color: white;
+    color: black;
 }
 
+
+.landscape-grid,.wildlife-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 200px 400px 400px 400px;
+}
+.dallas2,.bear1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+}
+
+.dallas3,.bear2{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 10px;
+}
+.dallas4,.bear3{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    padding: 10px;
+
+}
+.dallas5,.cub{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    padding: 10px;
+}
+.machupicchu,.bear4{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 10px;
+}
+.mirador,.bear5{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    padding: 10px;
+}
+.waterfall,.bear6{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    padding: 10px;
+}
+.mway,.eagle{
+    grid-column: 5/6;
+    grid-row: 3/4;
+    padding: 10px;
+}
+.landscape-msg,.wildlife-msg{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    padding: 10px;
+}
+#content-wildlife{
+   max-width: 1600px;
+   margin: 0 auto;
+}
+
+#landscape,.wildlife {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr, 1fr;
+}
+#landscape-img,#wildlife-img{
+    grid-column: 3/6;
+    grid-row: 1/2;
+    max-width: 1500px;
+    margin-left: 300px;
+}
