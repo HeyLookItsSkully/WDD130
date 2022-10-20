@@ -25,16 +25,18 @@ Fonts are separated by a | */
   --nav-hover-background-color: #6d6875;
 }
 #content {
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 body {
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
     text-align: center;
     color: black;
+    
+
 }
 .home-grid{
     display: grid;
