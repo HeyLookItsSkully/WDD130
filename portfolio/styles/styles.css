@@ -40,13 +40,21 @@ body {
     text-align: center;
     color: black;
     background-color: #6d6875;
-   
 }
 
 .home-grid{
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+}
+.paragraph-text{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+#paragraph{
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
 header {
     display: grid;
@@ -83,10 +91,9 @@ h2 {
 
 
 
-.social{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+.socials{
+    grid-column: 2/3;
+    margin: 100px;
     
 }
 
