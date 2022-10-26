@@ -106,7 +106,6 @@ nav {
 }
 nav  {
     list-style-type: none;
-    display: center;
     grid-column: 1/2;
 
 }
@@ -182,11 +181,6 @@ nav a:hover {
    margin: 0 auto;
 }
 
-#landscape,.wildlife {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr, 1fr;
-}
 #landscape-img,#wildlife-img{
     grid-column: 3/6;
     grid-row: 1/2;
